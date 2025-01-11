@@ -1,18 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 /* font-family: "Fira Sans", serif; */
+
 .hero{
     width: 1280px;
-    height: 560px;
+    
     border-radius: 24px;
 
 background: rgb(198, 228, 214);
 display: flex;
-justify-content: baseline;
+justify-content: center;
 align-items: center;
 gap: 64px;
 padding: 80px 100px 80px 100px;
 margin: 80px 160px 80px 160px;
 }
+
+
 .hero .hero-content .subtitle{
     color: rgba(14, 14, 14, 0.5);
 font-family: Fira Sans;
@@ -22,6 +25,7 @@ line-height: 29px;
 letter-spacing: 0%;
 text-align: left; 
 margin-bottom: 16px;
+
 
 }
 .hero .hero-content .title{
@@ -55,7 +59,7 @@ padding: 17px 34px 17px 34px;
     width: 622px;
     height: 326px;
 }
-/* style for second part card box*/
+/* style for second part (card box)*/
 .second-part{
     width: 1280px;
     height: 765px;
@@ -99,6 +103,7 @@ border-radius: 16px;
 
 background: rgba(84, 144, 245, 0.2);
 padding: 32px;
+margin:0 24px;
 }
 .second-part .card .card-1 .digit{
     color: rgba(14, 14, 14, 0.8);
@@ -110,7 +115,7 @@ letter-spacing: 0%;
 text-align: left;
 }
 .second-part .card .card-1 .creating{
-    color: rgba(14, 14, 14, 0.7);
+  color: rgba(14, 14, 14, 0.7);
 font-family: Fira Sans;
 font-size: 16px;
 font-weight: 400;
@@ -220,4 +225,226 @@ background: rgb(255, 194, 57);
     
         
         }
+
+   .second-part  .quotation{
+        background-image: url(../assets/quote-bg.png);
     
+        box-sizing: border-box;
+border: 1px solid rgba(14, 14, 14, 0.15);
+border-radius: 16px;
+background-color: rgb(255, 255, 255);
+padding: 48px 24px 48px 24px;
+margin-top: 32px;
+background-position:top;
+background-position-x: left;
+
+background-repeat: no-repeat;
+
+    }
+    .second-part .quotation .money{
+        color: rgba(14, 14, 14, 0.8);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+margin-bottom: 12px;
+    } 
+    .second-part .quotation .dr{
+        color: rgba(14, 14, 14, 0.8);
+font-family: Fira Sans;
+font-size: 20px;
+font-weight: 600;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+margin-bottom: 4px;
+        
+    }
+    .second-part .quotation .chief{
+        color: rgba(14, 14, 14, 0.6);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+    }
+
+/* style for new box */
+.news{
+    width: 1280px;
+    margin: 80px 160px 80px 160px;
+    
+}
+    .news .news-box .recent{
+        color: rgb(14, 14, 14);
+font-family: Fira Sans;
+font-size: 40px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: 0%;
+text-align: left;
+margin-bottom: 24px;
+    }
+    .news .news-box .bangladesh{
+        color: rgba(14, 14, 14, 0.7);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+margin-bottom: 32px;
+    }
+
+    /* for recent news box */
+    .news-container{
+        
+        display: flex;
+        flex-direction: row;
+        gap: 32px;
+        justify-content: flex-start;
+        align-items: center;
+        padding: 48px;
+        border-radius: 24px;
+
+background: rgb(255, 255, 255);
+        
+    }
+    .news-container .sat-img{
+    width: 408px;
+    height: 306px;
+        border-radius: 24px;
+
+    }
+    .news-container .content .bangla{
+        color: rgba(14, 14, 14, 0.8);
+font-family: Fira Sans;
+font-size: 32px;
+font-weight: 700;
+line-height: 38px;
+letter-spacing: 0%;
+text-align: left;
+    }
+ .al-jazeera{
+        width: 134px;
+        height: 40px;
+        margin-top: 12px; margin-bottom: 12px;
+    }
+    .news-container .content .date{
+        display: flex;
+        gap: 12px;
+        color: rgba(14, 14, 14, 0.7);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+
+        
+    }
+    .news-container .content .not{
+        color: rgba(14, 14, 14, 0.7);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+margin-top: 12px;
+width: 744px;
+
+    }
+    .news-container .content button{
+        color: rgb(255, 255, 255);
+font-family: Fira Sans;
+font-size: 18px;
+font-weight: 600;
+line-height: 22px;
+letter-spacing: 0%;
+text-align: left;
+border-radius: 8px;
+padding: 13px 26px 13px 26px;
+background-color: rgb(0, 106, 80);
+
+
+
+
+    }
+/* for new container 2 */
+.news-container-2{
+        
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 48px;
+    border-radius: 24px;
+
+background: rgb(255, 255, 255);
+
+    
+}
+
+.news-container-2 .sat-img-2{
+width: 408px;
+height: 306px;
+    border-radius: 24px;
+
+}
+.news-container-2 .content-2 .bangla-2{
+    color: rgba(14, 14, 14, 0.8);
+font-family: Fira Sans;
+font-size: 32px;
+font-weight: 700;
+line-height: 38px;
+letter-spacing: 0%;
+text-align: left;
+}
+.al-jazeera-2{
+    width: 134px;
+    height: 40px;
+    margin-top: 12px; margin-bottom: 12px;
+}
+.news-container-2 .content-2 .date-2{
+    display: flex;
+    gap: 12px;
+    color: rgba(14, 14, 14, 0.7);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+
+    
+}
+.news-container-2 .content-2 .not-2{
+    color: rgba(14, 14, 14, 0.7);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+margin-top: 12px;
+width: 744px;
+
+}
+.news-container-2 .content-2 button{
+    color: rgb(255, 255, 255);
+font-family: Fira Sans;
+font-size: 18px;
+font-weight: 600;
+line-height: 22px;
+letter-spacing: 0%;
+text-align: left;
+border-radius: 8px;
+padding: 13px 26px 13px 26px;
+background-color: rgb(0, 106, 80);
+
+}
