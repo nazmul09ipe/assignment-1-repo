@@ -12,6 +12,7 @@ justify-content: center;
 align-items: center;
 gap: 64px;
 padding: 80px 100px 80px 100px;
+
 margin: 80px 160px 80px 160px;
 }
 
@@ -447,4 +448,197 @@ border-radius: 8px;
 padding: 13px 26px 13px 26px;
 background-color: rgb(0, 106, 80);
 
+}
+/* for donate section */
+.contribution{
+    width: 1280px;
+    margin: 80px 160px 80px 160px;
+    
+}
+
+.contribution .offer .donate{
+    color: rgb(14, 14, 14);
+font-family: Fira Sans;
+font-size: 40px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: 0%;
+text-align: center;
+margin-bottom: 24px;
+}
+.contribution .offer .bangladesh-2{
+    color: rgba(14, 14, 14, 0.7);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: center;}
+.contribution .amount{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 24px;
+}
+
+.contribution .amount .one{
+    color: rgba(14, 14, 14, 0.8);
+font-family: Fira Sans;
+font-size: 40px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: 0%;
+text-align: left;
+box-sizing: border-box;
+border: 1px solid rgba(14, 14, 14, 0.15);
+border-radius: 16px;
+
+background: rgb(255, 255, 255);
+padding: 40px;
+}
+.contribution .amount .two{
+    color: rgba(14, 14, 14, 0.8);
+font-family: Fira Sans;
+font-size: 40px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: 0%;
+text-align: left;
+box-sizing: border-box;
+border: 1px solid rgba(14, 14, 14, 0.15);
+border-radius: 16px;
+
+
+background: rgb(198, 228, 214);
+padding: 40px;
+
+}
+.contribution .amount .three{
+    color: rgba(14, 14, 14, 0.8);
+font-family: Fira Sans;
+font-size: 40px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: 0%;
+text-align: left;
+box-sizing: border-box;
+border: 1px solid rgba(14, 14, 14, 0.15);
+border-radius: 16px;
+
+background: rgb(255, 255, 255);
+padding: 40px;
+
+
+}
+.contribution .amount .four{
+    color: rgba(14, 14, 14, 0.8);
+font-family: Fira Sans;
+font-size: 40px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: 0%;
+text-align: left;
+box-sizing: border-box;
+border: 1px solid rgba(14, 14, 14, 0.15);
+border-radius: 16px;
+
+background: rgb(255, 255, 255);
+padding: 40px;
+
+
+}
+.contribution .other{
+    color: rgba(14, 14, 14, 0.3);
+font-family: Fira Sans;
+font-size: 20px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+
+box-sizing: border-box;
+border-bottom: 1px solid rgba(14, 14, 14, 0.15);
+background: rgb(255, 255, 255);
+padding: 20px 40px 20px 40px;
+margin: 32px 0;
+text-align: center;
+}
+.contribution button{
+    color: rgb(255, 255, 255);
+font-family: Fira Sans;
+font-size: 18px;
+font-weight: 600;
+line-height: 22px;
+letter-spacing: 0%;
+
+box-sizing: border-box;
+border: 1px solid rgba(14, 14, 14, 0.1);
+border-radius: 8px;
+
+background-color: rgb(0, 106, 80);
+padding: 17px 34px 17px 34px;
+margin-left: 0;
+margin-right: 0;
+
+}
+/* for last part */
+.last-part{
+    width: 1280px;
+    padding: 80px 100px 80px 100px;
+    margin: 80px 0;
+    border-radius: 24px;
+
+    background-color: rgb(198, 228, 214); 
+    justify-content: center;
+    align-items: center;
+}
+.last-part .sub{
+    color: rgb(14, 14, 14);
+font-family: Fira Sans;
+font-size: 40px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: 0%;
+text-align: center;
+}
+.last-part .ban{
+    color: rgba(14, 14, 14, 0.7);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: center;
+
+}
+.last-part .subscribe email {border-radius: 8px 0px 0px 8px;
+
+    background: rgb(255, 255, 255);
+    padding: 18px 40px 18px 40px;
+    width: 600px;
+
+}
+
+.last-part .we{
+    color: rgba(14, 14, 14, 0.7);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 19px;
+letter-spacing: 0%;
+text-align: center;
+    
+}
+.footer p{
+    color: rgb(14, 14, 14);
+font-family: Fira Sans;
+font-size: 32px;
+font-weight: 700;
+line-height: 38px;
+letter-spacing: 0%;
+text-align: left;
+
+}
+.end{
+    
+text-align: center;
 }
