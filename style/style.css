@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 /* font-family: "Fira Sans", serif; */
+body{background: rgb(245, 245, 245);
+   
 
+}
 .hero{
     width: 1280px;
     
@@ -13,7 +16,7 @@ align-items: center;
 gap: 64px;
 padding: 80px 100px 80px 100px;
 
-margin: 80px 160px 80px 160px;
+margin:80px 160px;
 }
 
 
@@ -64,7 +67,8 @@ padding: 17px 34px 17px 34px;
 .second-part{
     width: 1280px;
     height: 765px;
-    margin: 80px 160px 80px 160px;
+    margin-left: 160px;
+    margin-right: 160px;
 }
 .second-part .heading{
     color: rgb(14, 14, 14);
@@ -133,6 +137,7 @@ line-height: 19px;
 letter-spacing: 0%;
 text-align: left;
     border-radius: 8px;
+    border: 0;
 
 background: rgb(84, 144, 245);
 
@@ -176,6 +181,7 @@ line-height: 19px;
 letter-spacing: 0%;
 text-align: left;
 border-radius: 8px;
+border: 0;
 
 background: rgb(9, 161, 92);
 padding: 11px 20px 11px 20px;
@@ -220,39 +226,48 @@ background: rgb(247, 235, 207);
     letter-spacing: 0%;
     text-align: left;
     border-radius: 8px;
+    border: 0;
 
 background: rgb(255, 194, 57);
     padding: 11px 20px 11px 20px;
     
         
         }
-
-   .second-part  .quotation{
-        background-image: url(../assets/quote-bg.png);
-    
-        box-sizing: border-box;
-border: 1px solid rgba(14, 14, 14, 0.15);
-border-radius: 16px;
-background-color: rgb(255, 255, 255);
+    .quotation-box{
+            
+width: 1280px;
 padding: 48px 24px 48px 24px;
 margin-top: 32px;
-background-position:top;
-background-position-x: left;
+box-sizing: border-box;
+border: 1px solid rgba(14, 14, 14, 0.15);
+border-radius: 16px;
 
-background-repeat: no-repeat;
+background: rgb(255, 255, 255);
+margin:32px 160px 80px 160px;
+        }
 
-    }
-    .second-part .quotation .money{
+        
+
+   
+     .quotation-box .quotation .money{
+        
         color: rgba(14, 14, 14, 0.8);
-font-family: Fira Sans;
-font-size: 16px;
-font-weight: 400;
-line-height: 24px;
-letter-spacing: 0%;
-text-align: left;
-margin-bottom: 12px;
+        font-family: Fira Sans;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0%;
+        text-align: left;
+        background-image:url(../assets/quote-bg.png);
+        background-repeat: no-repeat;
+        background-position:left;
+        background-position-x: top;
+
+        
+
+
     } 
-    .second-part .quotation .dr{
+     .quotation-box .quotation .dr{
         color: rgba(14, 14, 14, 0.8);
 font-family: Fira Sans;
 font-size: 20px;
@@ -263,7 +278,7 @@ text-align: left;
 margin-bottom: 4px;
         
     }
-    .second-part .quotation .chief{
+ .quotation-box .quotation .chief{
         color: rgba(14, 14, 14, 0.6);
 font-family: Fira Sans;
 font-size: 16px;
@@ -368,6 +383,7 @@ line-height: 22px;
 letter-spacing: 0%;
 text-align: left;
 border-radius: 8px;
+border: 0;
 padding: 13px 26px 13px 26px;
 background-color: rgb(0, 106, 80);
 
@@ -392,8 +408,8 @@ background: rgb(255, 255, 255);
 }
 
 .news-container-2 .sat-img-2{
-width: 408px;
-height: 306px;
+/* width: 408px; */
+/* height: 306px; */
     border-radius: 24px;
 
 }
@@ -445,6 +461,7 @@ line-height: 22px;
 letter-spacing: 0%;
 text-align: left;
 border-radius: 8px;
+border: 0;
 padding: 13px 26px 13px 26px;
 background-color: rgb(0, 106, 80);
 
@@ -453,6 +470,8 @@ background-color: rgb(0, 106, 80);
 .contribution{
     width: 1280px;
     margin: 80px 160px 80px 160px;
+    text-align: center;
+    justify-content: center;
     
 }
 
@@ -476,7 +495,7 @@ letter-spacing: 0%;
 text-align: center;}
 .contribution .amount{
     display: flex;
-    justify-content: flex-start;
+    justify-content:space-evenly;
     align-items: center;
     gap: 24px;
 }
@@ -540,6 +559,8 @@ letter-spacing: 0%;
 text-align: left;
 box-sizing: border-box;
 border: 1px solid rgba(14, 14, 14, 0.15);
+
+
 border-radius: 16px;
 
 background: rgb(255, 255, 255);
@@ -547,21 +568,8 @@ padding: 40px;
 
 
 }
-.contribution .other{
-    color: rgba(14, 14, 14, 0.3);
-font-family: Fira Sans;
-font-size: 20px;
-font-weight: 400;
-line-height: 24px;
-letter-spacing: 0%;
 
-box-sizing: border-box;
-border-bottom: 1px solid rgba(14, 14, 14, 0.15);
-background: rgb(255, 255, 255);
-padding: 20px 40px 20px 40px;
-margin: 32px 0;
-text-align: center;
-}
+
 .contribution button{
     color: rgb(255, 255, 255);
 font-family: Fira Sans;
@@ -576,31 +584,61 @@ border-radius: 8px;
 
 background-color: rgb(0, 106, 80);
 padding: 17px 34px 17px 34px;
-margin-left: 0;
-margin-right: 0;
+text-align: center;
+
 
 }
+.contribution .other-box{
+    
+
+box-sizing: border-box;
+border-bottom: 1px solid rgba(14, 14, 14, 0.15);
+ background-color: rgb(255, 255, 255);
+padding: 20px 40px 20px 40px;
+margin: 32px 0;
+text-align: center;}
+
+.contribution .other-box .other{
+    color: rgba(14, 14, 14, 0.3);
+font-family: Fira Sans;
+font-size: 20px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+}
+
+
+
+
 /* for last part */
 .last-part{
     width: 1280px;
     padding: 80px 100px 80px 100px;
-    margin: 80px 0;
+    margin: 0 160px 80px 160px;
+    
+    
     border-radius: 24px;
 
     background-color: rgb(198, 228, 214); 
     justify-content: center;
     align-items: center;
+    
 }
-.last-part .sub{
+.last-part .newsletter-box{
+    text-align: center;
+}
+.last-part .newsletter-box .subscribe{
     color: rgb(14, 14, 14);
 font-family: Fira Sans;
 font-size: 40px;
 font-weight: 700;
 line-height: 48px;
 letter-spacing: 0%;
-text-align: center;
+
+
+
 }
-.last-part .ban{
+.last-part .newsletter-box .ban{
     color: rgba(14, 14, 14, 0.7);
 font-family: Fira Sans;
 font-size: 16px;
@@ -608,14 +646,51 @@ font-weight: 400;
 line-height: 24px;
 letter-spacing: 0%;
 text-align: center;
+margin-top: 16px;
+margin-bottom: 24px;
+
+
+
 
 }
-.last-part .subscribe email {border-radius: 8px 0px 0px 8px;
 
-    background: rgb(255, 255, 255);
-    padding: 18px 40px 18px 40px;
-    width: 600px;
 
+.last-part .newsletter-box .email{
+border-radius: 8px 0px 0px 8px;
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 19px;
+letter-spacing: 0%;
+text-align: left;
+background: rgb(255, 255, 255);
+padding: 18px 40px 18px 40px;
+width: 600px;
+
+color: rgba(14, 14, 14, 0.3);
+    
+
+}
+.last-part .newsletter-box button{
+  
+color: rgb(255, 255, 255);
+font-family: Fira Sans;
+font-size: 18px;
+font-weight: 600;
+line-height: 22px;
+letter-spacing: 0%;
+text-align: left;
+width: 150px;
+border-radius: 0px 8px 8px 0px;
+
+background: rgb(0, 106, 80);
+padding:17px 34px 17px 34px ;
+}
+.last-part .newsletter-box .btns{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0;
 }
 
 .last-part .we{
@@ -628,17 +703,29 @@ letter-spacing: 0%;
 text-align: center;
     
 }
-.footer p{
-    color: rgb(14, 14, 14);
-font-family: Fira Sans;
-font-size: 32px;
-font-weight: 700;
-line-height: 38px;
-letter-spacing: 0%;
-text-align: left;
 
+.foot{
+    background: rgb(255, 255, 255);
+    width: 1600px;
+    padding: 50px 160px 50px 160px;
 }
-.end{
+.foot .foot-title{
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0%;
+    text-align: center;
     
-text-align: center;
+}
+
+
+.foot-img{
+    
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 23px;
+
 }
