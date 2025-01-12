@@ -1,12 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 /* font-family: "Fira Sans", serif; */
+
 body{background: rgb(245, 245, 245);
    
-
+*{
+    margin: 0;
+    padding: 0;
+}
 }
 .hero{
-    width: 1280px;
+    width:1000px;
     
+
     border-radius: 24px;
 
 background: rgb(198, 228, 214);
@@ -14,9 +19,11 @@ display: flex;
 justify-content: center;
 align-items: center;
 gap: 64px;
-padding: 80px 100px 80px 100px;
+padding: 80px 160px 80px 160px;
+margin: 60px 120px 60px 120px;
 
-margin:80px 160px;
+
+
 }
 
 
@@ -65,8 +72,8 @@ padding: 17px 34px 17px 34px;
 }
 /* style for second part (card box)*/
 .second-part{
-    width: 1280px;
-    height: 765px;
+    width: 1000px;
+    
     margin-left: 160px;
     margin-right: 160px;
 }
@@ -143,6 +150,11 @@ background: rgb(84, 144, 245);
 
 padding: 11px 20px 11px 20px;
 }
+.second-part .card .card-1 button:hover {
+    cursor: pointer;
+    background-color: brown;
+}
+
 /* for card -2 */
 .second-part .card .card-2{
     box-sizing: border-box;
@@ -188,6 +200,9 @@ padding: 11px 20px 11px 20px;
 
     
     }
+    .second-part .card-2 button:hover{
+    cursor: pointer;
+    background-color: brown}
 
     /* for card-3 */
     .second-part .card .card-3{
@@ -197,6 +212,8 @@ border-radius: 16px;
 background: rgb(247, 235, 207);
          
         
+
+
         padding: 32px;
         }
         .second-part .card .card-3 .modern{
@@ -230,9 +247,12 @@ background: rgb(247, 235, 207);
 
 background: rgb(255, 194, 57);
     padding: 11px 20px 11px 20px;
-    
-        
+      
         }
+        .second-part .card-3 button:hover{
+        cursor: pointer;
+        background-color: brown}
+
     .quotation-box{
             
 width: 1280px;
@@ -332,6 +352,7 @@ background: rgb(255, 255, 255);
     .news-container .sat-img{
     width: 408px;
     height: 306px;
+    border: 1px solid white;
         border-radius: 24px;
 
     }
@@ -389,7 +410,11 @@ background-color: rgb(0, 106, 80);
 
 
 
+    }
 
+    .news-container .content button:hover{
+        cursor: pointer;
+        background-color: brown;
     }
 /* for new container 2 */
 .news-container-2{
@@ -466,6 +491,12 @@ padding: 13px 26px 13px 26px;
 background-color: rgb(0, 106, 80);
 
 }
+
+.news-container-2 .content-2 button:hover{
+    cursor: pointer;
+    background-color: rgb(148, 9, 37);}
+
+
 /* for donate section */
 .contribution{
     width: 1280px;
@@ -588,6 +619,15 @@ text-align: center;
 
 
 }
+.contribution button:hover{
+    cursor: pointer;
+    background-color: brown;
+}
+
+
+
+
+
 .contribution .other-box{
     
 
@@ -612,7 +652,7 @@ letter-spacing: 0%;
 
 /* for last part */
 .last-part{
-    width: 1280px;
+    width: 1000px;
     padding: 80px 100px 80px 100px;
     margin: 0 160px 80px 160px;
     
@@ -626,6 +666,7 @@ letter-spacing: 0%;
 }
 .last-part .newsletter-box{
     text-align: center;
+    row-gap: 25px;
 }
 .last-part .newsletter-box .subscribe{
     color: rgb(14, 14, 14);
@@ -686,6 +727,14 @@ border-radius: 0px 8px 8px 0px;
 background: rgb(0, 106, 80);
 padding:17px 34px 17px 34px ;
 }
+
+.last-part .newsletter-box button:hover{
+    cursor: pointer;
+    background-color: brown;
+}
+
+
+
 .last-part .newsletter-box .btns{
     display: flex;
     justify-content: center;
@@ -706,8 +755,13 @@ text-align: center;
 
 .foot{
     background: rgb(255, 255, 255);
-    width: 1600px;
+    display:flex;
+
+    flex-direction: column;
+    gap: 64px;
+
     padding: 50px 160px 50px 160px;
+    
 }
 .foot .foot-title{
     color: rgb(14, 14, 14);
